@@ -43,7 +43,7 @@ public:
         int mini = (nums.size()/3)+1;
         if(cnt1>=mini)
             ans.push_back(el1);
-        if(cnt2>=mini && el1 != el2)
+        if(cnt2>=mini)
             ans.push_back(el2);
         
         return ans;
